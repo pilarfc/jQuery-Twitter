@@ -114,7 +114,7 @@
 
         var contadorCaracteres = $message.val().length;
         
-       
+        
        if (contadorCaracteres >= 140) {
            $boton.attr("disabled", true);
        } else {
